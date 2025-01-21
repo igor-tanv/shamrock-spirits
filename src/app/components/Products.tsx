@@ -1,12 +1,24 @@
 export default function Products() {
-    return (
-      <div className="py-20 px-10 bg-white">
-        <h2 className="text-3xl font-bold text-center mb-10">Our Products</h2>
-        <p className="text-center text-gray-600">
-          Product details will be added here.
-        </p>
-        {/* Replace this placeholder with a grid or list of products */}
+  const products = [
+    { name: "Irish Whiskey", price: "$50" },
+    { name: "Scotch Whisky", price: "$70" },
+    { name: "Premium Vodka", price: "$40" },
+  ];
+
+  return (
+    <div className="py-20 px-10 bg-gray-50">
+      <h2 className="text-4xl font-bold text-center mb-10">Our Products</h2>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        {products.map((product, index) => (
+          <div
+            key={index}
+            className="border border-gray-300 p-5 rounded-lg text-center shadow-sm hover:shadow-lg transition-shadow"
+          >
+            <h3 className="text-xl font-semibold">{product.name}</h3>
+            <p className="text-green-700 font-medium text-lg">{product.price}</p>
+          </div>
+        ))}
       </div>
-    );
-  }
-  
+    </div>
+  );
+}
