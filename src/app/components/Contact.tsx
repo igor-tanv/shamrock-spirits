@@ -1,47 +1,13 @@
 export default function Contact() {
   return (
-    <div className="py-20 px-10 bg-green-200">
-      <h2 className="text-4xl font-bold text-center mb-10">Contact Us</h2>
-      <form className="max-w-xl mx-auto">
-        <div className="mb-5">
-          <label htmlFor="name" className="block text-sm font-medium">
-            Name
-          </label>
-          <input
-            type="text"
-            id="name"
-            className="w-full p-2 border rounded"
-            placeholder="Your name"
-          />
-        </div>
-        <div className="mb-5">
-          <label htmlFor="email" className="block text-sm font-medium">
-            Email
-          </label>
-          <input
-            type="email"
-            id="email"
-            className="w-full p-2 border rounded"
-            placeholder="Your email"
-          />
-        </div>
-        <div className="mb-5">
-          <label htmlFor="message" className="block text-sm font-medium">
-            Message
-          </label>
-          <textarea
-            id="message"
-            className="w-full p-2 border rounded"
-            placeholder="Your message"
-          />
-        </div>
-        <button
-          type="submit"
-          className="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800"
-        >
-          Send Message
-        </button>
-      </form>
+    <div className="py-20 px-10 bg-green-200 text-center">
+      <h2 className="text-4xl font-bold mb-10">Contact Us</h2>
+      <p className="text-lg mb-4">📍 15 Phan Văn ĐạtBến Nghé, Quận 1, Hồ Chí Minh</p>
+      <p className="text-lg mb-4">📧 customer.service@shamrock-spirits.com</p>
+      <p className="text-lg">📞 +84 332 558 623</p>
+      <p className="text-lg">
+        🔗 <a href="https://www.facebook.com/profile.php?id=61571893030670" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Follow us on Facebook</a>
+      </p>
     </div>
   );
 }
