@@ -21,7 +21,15 @@ export default function Products() {
       size: "750ml",
       abv: "41%"
     },
+    {
+      name: "White Birch Gold Vodka",
+      ingredients: "White Birch vodka contains natural birch sap which gives the spirit an exceptional mildness and an exquisite flavour. Birch sap together with birch leaves infusion adds a smooth note to the flavour and a slight sweetness to an aftertaste.",
+      origin: "Russia",
+      size: "700ml",
+      abv: "40%"
+    }
   ];
+  
 
   return (
     <div className="py-20 px-10 bg-gray-50">
