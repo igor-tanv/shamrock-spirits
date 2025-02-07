@@ -5,21 +5,20 @@ export default function Hero() {
     <div className="relative bg-cover bg-center h-screen flex flex-col justify-center items-center text-center"
       style={{ backgroundImage: "url('/products/cover.png')" }}>
       <div className="absolute inset-0 bg-black opacity-50 -z-10"></div>
-      <div className="absolute top-16 left-4">
+      <div className="absolute top-20">
         <Image
-          src="/shamrock-logo.jpeg"
+          src="/logo.png"
           alt="Shamrock Spirits Logo"
-          width={100}
+          width={200}
           height={100}
           priority
         />
       </div>
-      <h1 className="text-5xl font-bold text-yellow-300 mt-6">
-        Welcome to Shamrock Spirits
-      </h1>
-      <p className="text-lg text-gray-200 mt-4">
-        Premium Spirits, Crafted with Care
-      </p>
+      <div className="bg-black bg-opacity-60 p-4 rounded-lg shadow-lg">
+        <h1 className="text-5xl font-bold text-yellow-300">
+          Welcome to Shamrock Spirits
+        </h1>
+      </div>
     </div>
   );
 }
