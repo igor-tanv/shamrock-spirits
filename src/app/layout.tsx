@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { dir } from "i18next";
+import i18nextConfig from "../../next-i18next.config";
 import "./globals.css";
 import AgeVerification from "./components/AgeVerification";
 import Navbar from "./components/Navbar";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,17 +25,17 @@ export const metadata: Metadata = {
   },
 };
 
+// Detect language from URL or default to "en"
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
+  const locale = i18nextConfig.i18n.defaultLocale;
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <AgeVerification/>
+    <html lang={locale} dir={dir(locale)}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <AgeVerification />
         <Navbar />
         {children}
       </body>
