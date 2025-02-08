@@ -1,4 +1,19 @@
 {
-    "welcome": "Chào mừng đến với Shamrock Spirits",
-    "description": "Rượu hảo hạng, sản xuất tinh tế"
-  }  
+  "welcome": "Chào mừng đến với Shamrock Spirits",
+  "description": "Rượu hảo hạng, sản xuất tinh tế",
+  "aboutUs": {
+    "title": "Về Chúng Tôi",
+    "description": "Shamrock Spirits cam kết mang đến cho khách hàng những loại rượu cao cấp nhất từ khắp nơi trên thế giới. Với niềm đam mê về sự hoàn hảo, chúng tôi lựa chọn cẩn thận và tuyển chọn những sản phẩm chất lượng cao phản ánh sự khéo léo, truyền thống và đổi mới. Dù là whiskey thượng hạng, tequila, mezcal hay các loại rượu tinh tế khác, chúng tôi luôn cố gắng mang đến sự đa dạng để đáp ứng mọi sở thích và dịp đặc biệt. Không chỉ cung cấp sản phẩm tuyệt vời, chúng tôi còn cam kết dịch vụ khách hàng xuất sắc, đảm bảo mọi trải nghiệm đều liền mạch, bổ ích và đáng nhớ. Tại Shamrock Spirits, chúng tôi tin rằng rượu ngon tạo nên những khoảnh khắc khó quên, và chúng tôi tự hào là một phần của những trải nghiệm đó."
+  },
+  "ourProducts": "Sản phẩm của chúng tôi",
+  "origin": "Xuất xứ",
+  "size": "Dung tích",
+  "abv": "Nồng độ cồn",
+  "contact": {
+    "title": "Liên Hệ",
+    "address": "📍 15 Phan Văn Đạt, Bến Nghé, Quận 1, Hồ Chí Minh",
+    "email": "📧 customer.service@shamrock-spirits.com",
+    "phone": "📞 +84 332 558 623",
+    "facebook": "🔗 Theo dõi chúng tôi trên Facebook"
+  }
+}

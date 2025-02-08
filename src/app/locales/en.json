@@ -1,5 +1,19 @@
 {
-    "welcome": "Welcome to Shamrock Spirits",
-    "description": "Premium Spirits, Crafted with Care"
+  "welcome": "Welcome to Shamrock Spirits",
+  "description": "Premium Spirits, Crafted with Care",
+  "aboutUs": {
+    "title": "About Us",
+    "description": "Shamrock Spirits is dedicated to bringing the finest spirits from around the world to our customers. With a passion for excellence, we carefully select and curate high-quality products that reflect craftsmanship, tradition, and innovation. Whether it's premium whiskey, tequila, mezcal, or other fine spirits, we strive to provide a diverse selection that caters to every taste and occasion. Beyond offering exceptional products, we are committed to delivering outstanding customer service, ensuring that every interaction is seamless, informative, and satisfying. At Shamrock Spirits, we believe that great spirits create unforgettable moments, and we take pride in being a part of those experiences."
+  },
+  "ourProducts": "Our Products",
+  "origin": "Origin",
+  "size": "Size",
+  "abv": "ABV",
+  "contact": {
+    "title": "Contact Us",
+    "address": "📍 15 Phan Văn Đạt, Bến Nghé, Quận 1, Hồ Chí Minh",
+    "email": "📧 customer.service@shamrock-spirits.com",
+    "phone": "📞 +84 332 558 623",
+    "facebook": "🔗 Follow us on Facebook"
   }
-  
+}

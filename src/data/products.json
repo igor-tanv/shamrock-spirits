@@ -1,7 +1,10 @@
 [
   {
     "name": "Defiant American Single Malt Whiskey",
-    "description": "Defiant Whisky is a bold and innovative spirit that breaks away from traditional whisky-making. Crafted with only four pure ingredients—premium American white oak, hand-selected yeast, two-row brewer’s barley, and pure Blue Ridge Mountain water—it delivers a smooth yet powerful flavor. With no reliance on conventional aging methods, Defiant focuses on quality and precision, creating a whisky that stands apart.",
+    "descriptions": {
+      "en": "Defiant Whisky is a bold and innovative spirit that breaks away from traditional whisky-making. Crafted with only four pure ingredients—premium American white oak, hand-selected yeast, two-row brewer’s barley, and pure Blue Ridge Mountain water—it delivers a smooth yet powerful flavor.",
+      "vi": "Defiant Whisky là một loại rượu mạnh táo bạo và sáng tạo, khác biệt so với cách làm whisky truyền thống. Được chế tác với chỉ bốn thành phần tinh khiết—gỗ sồi trắng Mỹ cao cấp, men được chọn lọc, lúa mạch hai hàng và nước suối từ Blue Ridge Mountain—nó mang đến hương vị mượt mà nhưng đầy mạnh mẽ."
+    },
     "origin": "USA",
     "size": "750ml",
     "abv": "41%",
@@ -9,7 +12,10 @@
   },
   {
     "name": "Olde Raleigh Whiskey Society Blended Bourbon",
-    "description": "Olde Raleigh Whiskey is a premium craft whiskey that embodies the rich heritage of Southern distilling. Made with the finest ingredients and aged to perfection, it delivers a smooth, well-balanced flavor with notes of caramel, vanilla, and oak. Whether enjoyed neat or in a classic cocktail, Olde Raleigh Whiskey offers a refined and unforgettable experience.",
+    "descriptions": {
+      "en": "Olde Raleigh Whiskey is a premium craft whiskey that embodies the rich heritage of Southern distilling. Made with the finest ingredients and aged to perfection, it delivers a smooth, well-balanced flavor with notes of caramel, vanilla, and oak.",
+      "vi": "Olde Raleigh Whiskey là một loại rượu thủ công cao cấp thể hiện di sản phong phú của ngành chưng cất miền Nam nước Mỹ. Được làm từ các thành phần tốt nhất và ủ đến độ hoàn hảo, nó mang đến hương vị mượt mà, cân bằng."
+    },
     "origin": "USA",
     "size": "750ml",
     "abv": "46.5%",
@@ -17,7 +23,10 @@
   },
   {
     "name": "Old Nick Straight Bourbon Whiskey",
-    "description": "ONW Straight Bourbon Whiskey is a premium American bourbon crafted with tradition and precision. Aged in new, charred American oak barrels, it delivers a rich and smooth flavor profile with notes of caramel, vanilla, and oak. Made from a carefully selected blend of corn, rye, and malted barley, this bourbon offers a balanced taste with a warm, lingering finish. Whether enjoyed neat, on the rocks, or in classic cocktails, ONW Straight Bourbon Whiskey is a perfect choice for bourbon enthusiasts looking for quality and character in every sip.",
+    "descriptions": {
+      "en": "ONW Straight Bourbon Whiskey is a premium American bourbon crafted with tradition and precision. Aged in new, charred American oak barrels, it delivers a rich and smooth flavor profile with notes of caramel, vanilla, and oak.",
+      "vi": "ONW Straight Bourbon Whiskey là một loại bourbon Mỹ cao cấp được chế tác với truyền thống và độ chính xác. Ủ trong thùng gỗ sồi Mỹ mới, nó mang lại hương vị phong phú và mượt mà với gợi ý của caramel, vani và gỗ sồi."
+    },
     "origin": "USA",
     "size": "750ml",
     "abv": "41%",
@@ -25,7 +34,10 @@
   },
   {
     "name": "White Birch Gold Vodka",
-    "description": "White Birch Vodka is a premium vodka known for its exceptional smoothness and purity. Distilled from high-quality grains and crystal-clear water, it undergoes a meticulous filtration process to achieve a clean, crisp taste. Perfect for sipping neat, on the rocks, or as the base for exquisite cocktails, White Birch Vodka delivers a refined drinking experience every time.",
+    "descriptions": {
+      "en": "White Birch Vodka is a premium vodka known for its exceptional smoothness and purity. Distilled from high-quality grains and crystal-clear water, it undergoes a meticulous filtration process to achieve a clean, crisp taste. Perfect for sipping neat, on the rocks, or as the base for exquisite cocktails, White Birch Vodka delivers a refined drinking experience every time.",
+      "vi": "White Birch Vodka là một loại vodka cao cấp nổi tiếng với độ mượt mà và tinh khiết đặc biệt. Được chưng cất từ các loại ngũ cốc chất lượng cao và nước tinh khiết, nó trải qua một quy trình lọc kỹ lưỡng để đạt được hương vị sạch và sắc nét. Hoàn hảo để thưởng thức nguyên chất, với đá hoặc làm nền cho các loại cocktail tinh tế."
+    },
     "origin": "Russia",
     "size": "700ml",
     "abv": "40%",
