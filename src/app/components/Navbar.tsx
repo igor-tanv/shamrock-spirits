@@ -7,7 +7,6 @@ import i18next from "@/i18n"; // Import from initialized i18n.js
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const { i18n } = useTranslation();
 
   const handleLinkClick = () => {
     setIsOpen(false);
