@@ -39,9 +39,9 @@ export default function Products() {
             <Image
               src={product.image}
               alt={product.name}
-              width={250}
-              height={350}
-              className="mx-auto rounded"
+              width={400}
+              height={400}
+              className="mx-auto rounded-lg shadow-lg"
             />
           </div>
         ))}
