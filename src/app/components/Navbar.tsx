@@ -40,12 +40,17 @@ const Navbar = () => {
         {/* Language Toggle (Desktop) */}
         <div className="hidden md:flex space-x-3">
           <button onClick={() => changeLanguage("en")} className="px-2 py-1 rounded bg-gray-700">
-            EN
+            <span role="img" aria-label="English">
+              🇺🇸
+            </span>
           </button>
           <button onClick={() => changeLanguage("vi")} className="px-2 py-1 rounded bg-gray-700">
-            VI
+            <span role="img" aria-label="Vietnamese">
+              🇻🇳
+            </span>
           </button>
         </div>
+
 
         {/* Mobile Menu Button */}
         <button className="md:hidden focus:outline-none" onClick={() => setIsOpen(!isOpen)}>
