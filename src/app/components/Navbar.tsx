@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { useTranslation } from "react-i18next";
 import i18next from "@/i18n"; // Import from initialized i18n.js
 
 const Navbar = () => {
