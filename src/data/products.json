@@ -1,30 +1,34 @@
 [
-    {
-      "name": "Defiant American Single Malt Whiskey",
-      "description": "Defiant Whisky is a bold and innovative spirit that breaks away from traditional whisky-making. Crafted with only four pure ingredients—premium American white oak, hand-selected yeast, two-row brewer’s barley, and pure Blue Ridge Mountain water—it delivers a smooth yet powerful flavor. With no reliance on conventional aging methods, Defiant focuses on quality and precision, creating a whisky that stands apart.",
-      "origin": "USA",
-      "size": "750ml",
-      "abv": "41%"
-    },
-    {
-      "name": "Olde Raleigh Whiskey Society Blended Bourbon",
-      "description": "Olde Raleigh Whiskey is a premium craft whiskey that embodies the rich heritage of Southern distilling. Made with the finest ingredients and aged to perfection, it delivers a smooth, well-balanced flavor with notes of caramel, vanilla, and oak. Whether enjoyed neat or in a classic cocktail, Olde Raleigh Whiskey offers a refined and unforgettable experience.",
-      "origin": "USA",
-      "size": "750ml",
-      "abv": "46.5%"
-    },
-    {
-      "name": "Old Nick Straight Bourbon Whiskey",
-      "description": "ONW Straight Bourbon Whiskey is a premium American bourbon crafted with tradition and precision. Aged in new, charred American oak barrels, it delivers a rich and smooth flavor profile with notes of caramel, vanilla, and oak. Made from a carefully selected blend of corn, rye, and malted barley, this bourbon offers a balanced taste with a warm, lingering finish. Whether enjoyed neat, on the rocks, or in classic cocktails, ONW Straight Bourbon Whiskey is a perfect choice for bourbon enthusiasts looking for quality and character in every sip.",
-      "origin": "USA",
-      "size": "750ml",
-      "abv": "41%"
-    },
-    {
-      "name": "White Birch Gold Vodka",
-      "description": "White Birch Vodka is a premium vodka known for its exceptional smoothness and purity. Distilled from high-quality grains and crystal-clear water, it undergoes a meticulous filtration process to achieve a clean, crisp taste. Perfect for sipping neat, on the rocks, or as the base for exquisite cocktails, White Birch Vodka delivers a refined drinking experience every time.",
-      "origin": "Russia",
-      "size": "700ml",
-      "abv": "40%"
-    }
-  ]
+  {
+    "name": "Defiant American Single Malt Whiskey",
+    "description": "Defiant Whisky is a bold and innovative spirit that breaks away from traditional whisky-making. Crafted with only four pure ingredients—premium American white oak, hand-selected yeast, two-row brewer’s barley, and pure Blue Ridge Mountain water—it delivers a smooth yet powerful flavor. With no reliance on conventional aging methods, Defiant focuses on quality and precision, creating a whisky that stands apart.",
+    "origin": "USA",
+    "size": "750ml",
+    "abv": "41%",
+    "image": "/products/Defiant.jpg"
+  },
+  {
+    "name": "Olde Raleigh Whiskey Society Blended Bourbon",
+    "description": "Olde Raleigh Whiskey is a premium craft whiskey that embodies the rich heritage of Southern distilling. Made with the finest ingredients and aged to perfection, it delivers a smooth, well-balanced flavor with notes of caramel, vanilla, and oak. Whether enjoyed neat or in a classic cocktail, Olde Raleigh Whiskey offers a refined and unforgettable experience.",
+    "origin": "USA",
+    "size": "750ml",
+    "abv": "46.5%",
+    "image": "/products/OldeRaleigh.jpg"
+  },
+  {
+    "name": "Old Nick Straight Bourbon Whiskey",
+    "description": "ONW Straight Bourbon Whiskey is a premium American bourbon crafted with tradition and precision. Aged in new, charred American oak barrels, it delivers a rich and smooth flavor profile with notes of caramel, vanilla, and oak. Made from a carefully selected blend of corn, rye, and malted barley, this bourbon offers a balanced taste with a warm, lingering finish. Whether enjoyed neat, on the rocks, or in classic cocktails, ONW Straight Bourbon Whiskey is a perfect choice for bourbon enthusiasts looking for quality and character in every sip.",
+    "origin": "USA",
+    "size": "750ml",
+    "abv": "41%",
+    "image": "/products/ONW.jpg"
+  },
+  {
+    "name": "White Birch Gold Vodka",
+    "description": "White Birch Vodka is a premium vodka known for its exceptional smoothness and purity. Distilled from high-quality grains and crystal-clear water, it undergoes a meticulous filtration process to achieve a clean, crisp taste. Perfect for sipping neat, on the rocks, or as the base for exquisite cocktails, White Birch Vodka delivers a refined drinking experience every time.",
+    "origin": "Russia",
+    "size": "700ml",
+    "abv": "40%",
+    "image": "/products/white-birch.jpg"
+  }
+]
