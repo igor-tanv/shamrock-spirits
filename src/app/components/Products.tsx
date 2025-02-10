@@ -53,15 +53,18 @@ export default function Products() {
       {/* Modal */}
       {selectedProduct && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center"
+          className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center px-4"
           onClick={closeModal} // Close modal when clicking outside
         >
           <div
-            className="bg-white p-6 rounded-lg max-w-lg text-center relative"
+            className="bg-white p-6 rounded-lg max-w-lg text-center relative w-full max-h-[90vh] overflow-auto"
             onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside
           >
-            {/* Close Button */}
-            <button className="absolute top-2 right-4 text-gray-600 text-2xl" onClick={closeModal}>
+            {/* Close Button - Always Visible */}
+            <button
+              className="absolute top-4 right-4 text-gray-600 text-2xl bg-white p-2 rounded-full shadow-md"
+              onClick={closeModal}
+            >
               ✖
             </button>
 
@@ -77,8 +80,8 @@ export default function Products() {
             {/* Product Info */}
             <h3 className="text-2xl font-semibold mt-4">{selectedProduct.name}</h3>
             <p className="text-gray-700 mt-2">
-                    {selectedProduct.descriptions[i18n.language as keyof typeof selectedProduct.descriptions]}
-              </p>
+              {selectedProduct.descriptions[i18n.language as keyof typeof selectedProduct.descriptions]}
+            </p>
             <p className="text-gray-500 mt-2"><strong>{t("origin")}:</strong> {selectedProduct.origin}</p>
             <p className="text-gray-500"><strong>{t("size")}:</strong> {selectedProduct.size}</p>
             <p className="text-gray-500"><strong>{t("abv")}:</strong> {selectedProduct.abv}</p>
