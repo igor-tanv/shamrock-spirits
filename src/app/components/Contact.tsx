@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <div className="py-20 px-10 bg-green-200 text-center">
       <h2 className="text-4xl font-bold text-center mb-10 text-black">
-            {t("contactUs.title")}
+            {t("contact.title")}
 </h2>
       <p className="text-lg mb-4">{t("contact.address")}</p>
       <p className="text-lg mb-4">{t("contact.email")}</p>

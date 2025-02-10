@@ -31,7 +31,7 @@ export default function Products() {
 
   return (
     <div className="py-20 px-10 bg-gray-50">
-     <h2 className="text-4xl font-bold text-center mb-10 text-black-900">
+     <h2 className="text-4xl font-bold text-center mb-10 text-black">
         {t("ourProducts")}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
