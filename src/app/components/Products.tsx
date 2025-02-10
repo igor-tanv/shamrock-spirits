@@ -63,7 +63,7 @@ export default function Products() {
       onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside
     >
       {/* Close Button */}
-      <button className="absolute top-4 right-4 text-black text-2xl" onClick={closeModal}> // Ensure text-black
+      <button className="absolute top-4 right-4 text-black text-2xl" onClick={closeModal}> 
         ✖
       </button>
 
