@@ -52,44 +52,44 @@ export default function Products() {
         ))}
       </div>
 
-      {/* Modal */}
-      {selectedProduct && (
-        <div
-          className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center px-4"
-          onClick={closeModal} // Close modal when clicking outside
-        >
-          <div
-            className="bg-white p-6 rounded-lg max-w-lg text-center relative w-full max-h-[90vh] overflow-auto"
-            onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside
-          >
-            {/* Close Button - Always Visible */}
-            <button
-              className="absolute top-4 right-4 text-gray-600 text-2xl bg-white p-2 rounded-full shadow-md"
-              onClick={closeModal}
-            >
-              ✖
-            </button>
+{/* Modal */}
+{selectedProduct && (
+  <div
+    className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+    onClick={closeModal}
+  >
+    <div
+      className="bg-white p-6 rounded-lg max-w-lg text-center relative mt-10" 
+      onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside
+    >
+      {/* Close Button */}
+      <button className="absolute top-4 right-4 text-black text-2xl" onClick={closeModal}> // Ensure text-black
+        ✖
+      </button>
 
-            {/* Product Image */}
-            <Image
-              src={selectedProduct.image}
-              alt={selectedProduct.name}
-              width={300}
-              height={450}
-              className="mx-auto rounded-lg shadow-lg"
-            />
+      {/* Product Image */}
+      <Image
+        src={selectedProduct.image}
+        alt={selectedProduct.name}
+        width={300}
+        height={450}
+        className="mx-auto rounded-lg shadow-lg"
+      />
 
-            {/* Product Info */}
-            <h3 className="text-2xl font-semibold mt-4">{selectedProduct.name}</h3>
-            <p className="text-gray-700 mt-2">
-              {selectedProduct.descriptions[i18n.language as keyof typeof selectedProduct.descriptions]}
-            </p>
-            <p className="text-gray-500 mt-2"><strong>{t("origin")}:</strong> {selectedProduct.origin}</p>
-            <p className="text-gray-500"><strong>{t("size")}:</strong> {selectedProduct.size}</p>
-            <p className="text-gray-500"><strong>{t("abv")}:</strong> {selectedProduct.abv}</p>
-          </div>
-        </div>
-      )}
+      {/* Product Info */}
+      <h3 className="text-2xl font-bold text-black mt-4"> 
+        {selectedProduct.name}
+      </h3>
+      <p className="text-gray-700 mt-2">
+        {selectedProduct.descriptions[i18n.language as keyof typeof selectedProduct.descriptions]}
+      </p>
+      <p className="text-gray-500 mt-2"><strong>{t("origin")}:</strong> {selectedProduct.origin}</p>
+      <p className="text-gray-500"><strong>{t("size")}:</strong> {selectedProduct.size}</p>
+      <p className="text-gray-500"><strong>{t("abv")}:</strong> {selectedProduct.abv}</p>
+    </div>
+  </div>
+)}
+
     </div>
   );
 }
