@@ -21,7 +21,7 @@ export default function Hero() {
       </div>
       <div className="bg-black bg-opacity-60 p-4 rounded-lg shadow-lg">
         <h1 className="text-5xl font-bold text-yellow-300">
-          {t("welcome")}  {/* Uses the key from en.json / vi.json */}
+          {t("welcome")}
         </h1>
         <p className="text-lg text-gray-200 mt-2">
           {t("description")}
